@@ -1,7 +1,8 @@
 project('physics-engine', 'c')
 
 files = [
-  'src/main.c'
+  'src/main.c',
+  'src/physics_object.c'
 ]
 
 raylib_dep = dependency('raylib')
